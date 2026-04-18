@@ -28,13 +28,19 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ui:Button
-            x:Name="FileSelector"
-            Width="178"
-            Margin="10"
-            VerticalAlignment="Top"
-            Click="FileSelector_Click"
-            Content="Выбрать XML файл" />
+        <StackPanel Margin="10" Orientation="Horizontal">
+            <ui:Button
+                x:Name="FileSelector"
+                Width="178"
+                VerticalAlignment="Top"
+                Click="FileSelector_Click"
+                Content="Выбрать XML файл" />
+            <Label
+                Margin="20,0,0,0"
+                VerticalAlignment="Center"
+                Content="{Binding OpenedFile}" />
+        </StackPanel>
+
         <ScrollViewer Grid.Row="1">
             <StackPanel Margin="10">
                 <ItemsControl x:Name="EmployeesTreeView" d:ItemsSource="{d:SampleData ItemCount=2}">
@@ -43,11 +49,23 @@
                             <Expander Margin="2" IsExpanded="False">
                                 <Expander.Header>
                                     <StackPanel Margin="5,0" Orientation="Horizontal">
-                                        <TextBox
-                                            Margin="0,0,5,0"
+                                        <ui:Button
+                                            VerticalAlignment="Stretch"
+                                            Command="{Binding DataContext.DeleteEmployeeCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                            CommandParameter="{Binding}">
+                                            <ui:SymbolIcon Symbol="Delete12" />
+                                        </ui:Button>
+                                        <ui:TextBox
+                                            Width="120"
+                                            Margin="5,0,5,0"
                                             FontWeight="Bold"
+                                            PlaceholderText="Имя"
                                             Text="{Binding Name}" />
-                                        <TextBox Margin="0,0,10,0" Text="{Binding Surname}" />
+                                        <ui:TextBox
+                                            Width="120"
+                                            Margin="5,0,5,0"
+                                            PlaceholderText="Фамилия"
+                                            Text="{Binding Surname}" />
                                         <TextBlock
                                             VerticalAlignment="Center"
                                             Foreground="Gray"
@@ -60,6 +78,12 @@
                                             <ItemsControl.ItemTemplate>
                                                 <DataTemplate>
                                                     <StackPanel Margin="0,2" Orientation="Horizontal">
+                                                        <ui:Button
+                                                            VerticalAlignment="Stretch"
+                                                            Command="{Binding DataContext.DeleteSalaryCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                            CommandParameter="{Binding}">
+                                                            <ui:SymbolIcon Symbol="Delete12" />
+                                                        </ui:Button>
                                                         <ComboBox
                                                             Width="150"
                                                             VerticalAlignment="Center"
@@ -74,12 +98,21 @@
                                                 </DataTemplate>
                                             </ItemsControl.ItemTemplate>
                                         </ItemsControl>
+                                        <ui:Button
+                                            VerticalAlignment="Stretch"
+                                            Command="{Binding DataContext.AddSalaryCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                            CommandParameter="{Binding}"
+                                            Content="Добавить запись" />
                                     </StackPanel>
                                 </Expander.Content>
                             </Expander>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
+                <ui:Button
+                    VerticalAlignment="Stretch"
+                    Command="{Binding AddEmployeeCommand}"
+                    Content="Добавить сотрудника" />
             </StackPanel>
         </ScrollViewer>
 
@@ -89,6 +122,7 @@
             Width="178"
             Margin="10"
             VerticalAlignment="Top"
-            Content="Преобразовать" />
+            Command="{Binding SaveCommand}"
+            Content="Сохранить" />
     </Grid>
 </Window>
