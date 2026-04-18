@@ -1,0 +1,41 @@
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\XSLT test.exe.config
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\XSLT test.exe
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\XSLT test.pdb
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Buffers.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Memory.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\Wpf.Ui.Abstractions.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\Wpf.Ui.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Buffers.xml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Memory.xml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\Wpf.Ui.pdb
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\Wpf.Ui.xml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\Wpf.Ui.Abstractions.pdb
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\Wpf.Ui.Abstractions.xml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.csproj.AssemblyReference.cache
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\MainWindow.g.cs
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\App.g.cs
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test_MarkupCompile.cache
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test_MarkupCompile.lref
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\App.baml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\MainWindow.baml
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.g.resources
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT_test.Properties.Resources.resources
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.csproj.GenerateResource.cache
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.csproj.CoreCompileInputs.cache
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.csproj.Up2Date
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.exe
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\obj\Debug\XSLT test.pdb
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\IKVM.Runtime.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\saxon-he-10.9.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\saxon-he-api-10.9.dll
+C:\Users\VOVCHEG\source\repos\XSLT test\XSLT test\bin\Debug\saxon-he-api-10.9.xml
